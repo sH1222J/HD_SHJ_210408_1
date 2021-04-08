@@ -1,42 +1,37 @@
 /*
-혼자 해보기 문제
-(While 문만 사용하여 문제풀이를하세요.)
- 
-1. 4단 8단을 출력하세요 
+특별문제
+for([초기화 되는 변수 즉 , 시작지점 ]; [조건] 반복횟수; 시작변수를 증감 시킴 +- ; ){
+}
+1번문제
+*
+**
+***
+****
+*****
+2번문제
+		*
+	   **
+	  ***
+	 ****
+	*****
+3번문제
+  *
+  **
+  *
+  ***
+  *
+  ****
+  *
+  *****
 
-
-#include<iostream>
-using namespace std;
+*/
+#include<stdio.h>
 void main() {
-int loop = 4;
-while (loop < 10) {
-		int innerloop = 1;
-		printf("=== %d 단 ===\n\n", loop);
-		while (innerloop <= 9) {
-			printf("%d*%d=%d\n", loop, innerloop, loop * innerloop);
-			innerloop++;
-		}
-		loop += 4;
-	}
-	fgetc(stdin);
-
-	}
-
-	*/
-
-#include<iostream>
-void main() {
-	int loop = 0;
-	while (loop = 0);
-	while (loop < 8) {
-		int innerloop = 0;
-		while (innerloop <= loop) {
+	for (int a = 0; a <= ; a++) {
+		for (int i = 0; i <= a; i++) {
 			printf("*");
-			innerloop++;
 		}
-		loop += 2;
 		printf("\n");
 	}
 	fgetc(stdin);
-
 }
